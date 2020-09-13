@@ -6,18 +6,17 @@
 		"weight": 50,
 		"pages": [
 			{
-				"url": "https://www.mid-day.com/entertainment/bollywood",
+				"url": "https://m.mid-day.com/entertainment/bollywood",
 				"category": "news",
-				"link-selector": ".topStories > ul > li > figure > a:nth-child(1)"
+				"link-selector": ".newContainer > .gallery > h1 ~ ul > li > a"
 			}
 		],
 		"article-detail-selectors": {
-			"title": ".article-top > main > h1",
-			"excerpt": ".article-top > main .short-descrp",
-			"lead-image": ".articlebody .atrFirstImg > img:nth-child(1)",
-			"content": [".article-top > main .short-descrp", "#article-des"],
-			"tags": "",
-			"likes-count": "main > article > header div.total.shareTotal"
+			"title": ".mainContainer h1",
+			"excerpt": ".mainContainer h2",
+			"lead-image": ".firstImg > img:nth-child(1)",
+			"content": [".mainContainer h2", ".mainContainer .h3"],
+			"tags": ""
 		}
 	}
 ]
