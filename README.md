@@ -1,11 +1,11 @@
-# NepalToday-Api
+# Bollywood Hungama Api
 
-A graphql based api endpoint for NepalToday mobile app
-It is set to auto-deploy to https://dashboard.heroku.com/apps/nepaltoday-api-qa
+A graphql based api endpoint for Bollywood Hungama mobile app
+It is set to auto-deploy to https://dashboard.heroku.com/apps/bollywoodhungama-api-qa
 
-![Node CI](https://github.com/siristechnology/nepaltoday-api/workflows/Node%20CI/badge.svg?branch=master)
+![Node CI](https://github.com/siristechnology/bhn-api/workflows/Node%20CI/badge.svg?branch=master)
 [![DeepScan grade](https://deepscan.io/api/teams/5348/projects/7147/branches/66890/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5348&pid=7147&bid=66890)
-[![codecov](https://codecov.io/gh/siristechnology/nepaltoday-api/branch/master/graph/badge.svg)](https://codecov.io/gh/siristechnology/nepaltoday-api)
+[![codecov](https://codecov.io/gh/siristechnology/bhn-api/branch/master/graph/badge.svg)](https://codecov.io/gh/siristechnology/bhn-api)
 
 ![alt text](/assets/images/graphql-interface.png)
 
@@ -26,7 +26,7 @@ It is set to auto-deploy to https://dashboard.heroku.com/apps/nepaltoday-api-qa
 ## Most basic MongoDB commands (terminal)
 
 -   `show dbs` --to show all dbs
--   `use nepaltodaydb` --to switch to nepaltodaydb
+-   `use bhndb` --to switch to bhndb
 -   `show collections` --to show all collections/tables
 -   `db.articles.find()` --to show all articles in the collection
 -   `db.articles.find({title: 'new title'})` --to show article/articles with title = 'new title'
