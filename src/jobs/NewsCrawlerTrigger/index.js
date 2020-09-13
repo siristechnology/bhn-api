@@ -2,7 +2,7 @@ const NewsCrawler = require('news-crawler')
 const { saveArticles } = require('../../db-service/newsDbService')
 const SourceConfig = require('../../config/news-source-config.json')
 const logger = require('../../config/logger')
-const { googleTranslate, removeDuplicateArticles, filterNewArticles } = require('./helper')
+const { removeDuplicateArticles, filterNewArticles } = require('./helper')
 const { Article } = require('../../db-service/database/mongooseSchema')
 const WordPOS = require('wordpos')
 const wordpos = new WordPOS()
@@ -17,8 +17,7 @@ module.exports = async function () {
 
 		const articleWithNouns = []
 		for (const article of articles) {
-			const translated = await googleTranslate(article.title)
-			const nouns = await wordpos.getNouns(translated)
+			const nouns = await wordpos.getNouns(article.title)
 			article.nouns = nouns
 			articleWithNouns.push(article)
 		}
