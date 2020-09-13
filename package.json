@@ -1,5 +1,5 @@
 {
-	"name": "bollywoodhungama.api",
+	"name": "bollywood.hungama.api",
 	"version": "1.0.0",
 	"description": "A graphql based api endpoint for Bollywood Hungama mobile app",
 	"main": "src/server.js",

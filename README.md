@@ -1,7 +1,7 @@
 # Bollywood Hungama Api
 
 A graphql based api endpoint for Bollywood Hungama mobile app
-It is set to auto-deploy to https://dashboard.heroku.com/apps/bollywoodhungama-api-qa
+It is set to auto-deploy to https://dashboard.heroku.com/apps/bollywood-hungama-api-qa
 
 ![Node CI](https://github.com/siristechnology/bhn-api/workflows/Node%20CI/badge.svg?branch=master)
 [![DeepScan grade](https://deepscan.io/api/teams/5348/projects/7147/branches/66890/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5348&pid=7147&bid=66890)
