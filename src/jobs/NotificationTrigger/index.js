@@ -1,8 +1,8 @@
-const { verifyNoticiableTime, verifyCoronaNotificationTime } = require('./notificationTime')
-const { newsDbService, NotificationDbService, DistrictCoronaDbService } = require('../../db-service')
+const { verifyNoticiableTime } = require('./notificationTime')
+const { newsDbService, NotificationDbService } = require('../../db-service')
 const { getUsersWithCurrentTime } = require('./usersWithCurrentTime')
 const { sendPushNotification } = require('./pushNotificationSender')
-const { notificationExists, createUserWithNotification, createUserWithCoronaNotification } = require('./notificationHelper')
+const { notificationExists, createUserWithNotification } = require('./notificationHelper')
 
 module.exports = async function (context) {
 	const timeStamp = new Date().toISOString()
@@ -40,18 +40,6 @@ module.exports = async function (context) {
 					const notificationResponse = await NotificationDbService.saveNotifications(notifications)
 					if (notificationResponse) {
 						context.log('_____________notifications are saved successfully__________')
-					}
-				}
-			}
-
-			const latestSummary = await DistrictCoronaDbService.getDistrictCoronaStats()
-			if (latestSummary) {
-				for (const user of userWithCurrentTime) {
-					const coronaNotificationEligibleTime = verifyCoronaNotificationTime(user.currentTime)
-
-					if (coronaNotificationEligibleTime) {
-						const userWithNotification = createUserWithCoronaNotification(latestSummary.timeLine, user)
-						sendPushNotification(userWithNotification)
 					}
 				}
 			}

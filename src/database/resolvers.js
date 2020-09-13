@@ -31,7 +31,7 @@ module.exports = {
 
 			const articles = await Promise.all(promises)
 			let articleFlattened = _.flatten(articles)
-			articleFlattened = articleFlattened.sort((a,b) => (a._id < b._id) ? 1 : ((b._id < a._id) ? -1 : 0));
+			articleFlattened = articleFlattened.sort((a, b) => (a._id < b._id ? 1 : b._id < a._id ? -1 : 0))
 			const articleList = articleFlattened.map((article) => {
 				const mySource = SourceConfig.find((x) => x.sourceName === article.sourceName)
 				article.source = {
@@ -67,16 +67,6 @@ module.exports = {
 		getTweetByHandle: async (parent, { handle }) => {
 			const tweets = await Tweet.find({ handle }).sort({ publishedDate: -1 }).limit(100)
 			return tweets
-		},
-
-		getLatestCoronaStats: async (parent, args, { CoronaStats }) => {
-			const { CoronaDbService } = require('../db-service')
-			return await CoronaDbService.getLatestStats()
-		},
-
-		getDistrictCoronaStats: async (parent, args, { DistrictCoronaStats }) => {
-			const { DistrictCoronaDbService } = require('../db-service')
-			return await DistrictCoronaDbService.getDistrictCoronaStats()
 		},
 
 		getTrending: async (parent, args, { TrendingTweetCount }) => {

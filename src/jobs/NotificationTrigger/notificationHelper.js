@@ -14,13 +14,12 @@ const notificationExists = async (user, article) => {
 
 		// return !!hasSent
 
-		const isExist = await Notification.countDocuments({article:article._id, user: user._id})
-		if(isExist>0){
+		const isExist = await Notification.countDocuments({ article: article._id, user: user._id })
+		if (isExist > 0) {
 			return true
-		}else{
+		} else {
 			return false
 		}
-
 	} catch (error) {
 		console.log('could not get todays notification', error)
 	}
@@ -39,33 +38,7 @@ const createUserWithNotification = (article, user) => {
 	}
 }
 
-const createUserWithCoronaNotification = (stats, user) => {
-	return {
-		notification: {
-			title: 'कोरोना तथ्याङ्क',
-			body: `कुल संक्रमित : ${convertNumbertoNepali(stats.totalCases)}, नयाँ संक्रमित : ${convertNumbertoNepali(
-				stats.newCases,
-			)}, कुल मृत्यु : ${convertNumbertoNepali(stats.totalDeaths)}, नयाँ मृत्यु : ${convertNumbertoNepali(stats.newDeaths)}`,
-		},
-		to: user.fcmToken,
-		data: {
-			notifType: 'corona',
-		},
-	}
-}
-
-const convertNumbertoNepali = (num) => {
-	const nepaliNumbers = ['o', '१', '२', '३', '४', '५', '६', '७', '८', '९']
-	const numStr = num.toString().split('')
-	let newNepaliNumber = ''
-	numStr.map((str) => {
-		newNepaliNumber += nepaliNumbers[str]
-	})
-	return newNepaliNumber
-}
-
 module.exports = {
 	notificationExists,
 	createUserWithNotification,
-	createUserWithCoronaNotification,
 }

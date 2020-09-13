@@ -20,7 +20,7 @@ const Article = mongoose.model(
 		modifiedDate: { type: Date, default: Date.now },
 		topic: { type: String },
 		createdAt: { type: Date, expires: expiryTime, default: Date.now },
-		nouns: [String]
+		nouns: [String],
 	}),
 )
 
@@ -70,56 +70,6 @@ const Topic = mongoose.model(
 	}),
 )
 
-const CoronaStats = mongoose.model(
-	'CoronaStats',
-	new Schema({
-		createdDate: { type: Date, default: Date.now },
-		createdAt: {type: Date, default: Date.now, expires: expiryTime},
-		stats: [
-			{
-				country: String,
-				total_cases: Number,
-				total_deaths: Number,
-				new_cases: Number,
-				new_deaths: Number,
-			},
-		],
-		worldSummary: {
-			totalCases: Number,
-			newCases: Number,
-			totalDeaths: Number,
-			newDeaths: Number,
-		},
-	}),
-)
-
-const DistrictCoronaStats = mongoose.model(
-	'DistrictCoronaStats',
-	new Schema({
-		createdDate: { type: Date, default: Date.now },
-		createdAt: {type: Date, default: Date.now, expires: expiryTime},
-		timeLine: {
-			date: String,
-			totalCases: Number,
-			newCases: Number,
-			totalRecoveries: Number,
-			newRecoveries: Number,
-			totalDeaths: Number,
-			newDeaths: Number,
-		},
-		districts: [
-			{
-				name: String,
-				nepaliName: String,
-				totalCases: Number,
-				activeCases: Number,
-				recovered: Number,
-				deaths: Number,
-			},
-		],
-	}),
-)
-
 const TrendingTweetCount = mongoose.model(
 	'TrendingTweetCount',
 	new Schema({
@@ -144,16 +94,16 @@ const TrendingTweetCount = mongoose.model(
 const FacebookPosts = mongoose.model(
 	'FacebookPosts',
 	new Schema({
-		createdAt: {type: Date, default: Date.now(), expires: 86400},
-		articleLink: {type: String, required: true, unique: true}
-	})
+		createdAt: { type: Date, default: Date.now(), expires: 86400 },
+		articleLink: { type: String, required: true, unique: true },
+	}),
 )
 
 const TrendingTopic = mongoose.model(
 	'TrendingTopic',
 	new Schema({
-		topics: [{type: String, unique: true}]
-	})
+		topics: [{ type: String, unique: true }],
+	}),
 )
 
 module.exports = {
@@ -162,9 +112,7 @@ module.exports = {
 	Article,
 	Notification,
 	Topic,
-	CoronaStats,
-	DistrictCoronaStats,
 	TrendingTweetCount,
 	FacebookPosts,
-	TrendingTopic
+	TrendingTopic,
 }

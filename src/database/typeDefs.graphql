@@ -43,12 +43,6 @@ input TweetCriteria {
 	lastQueryDate: String
 }
 
-type CoronaStats {
-	createdDate: String
-	stats: [CoronaMetrics]
-	worldSummary: worldSummary
-}
-
 type worldSummary {
 	totalCases: Int
 	newCases: Int
@@ -56,53 +50,20 @@ type worldSummary {
 	newDeaths: Int
 }
 
-type CoronaMetrics {
-	country: String
-	total_cases: Int
-	total_deaths: Int
-	new_cases: Int
-	new_deaths: Int
-}
-
-type DistrictCoronaStats {
-	createdDate: String
-	timeLine: coronaTimeLine
-	districts: [DistrictCoronaMetrics]
-}
-
-type coronaTimeLine {
-	date: String
-	totalCases: Int
-	newCases: Int
-	totalRecoveries: Int
-	newRecoveries: Int
-	totalDeaths: Int
-	newDeaths: Int
-}
-
-type DistrictCoronaMetrics {
-	name: String
-	nepaliName: String
-	totalCases: Int
-	activeCases: Int
-	recovered: Int
-	deaths: Int
-}
-
-type TrendingHandle{
+type TrendingHandle {
 	name: String
 	handle: String
 	searchTerms: [String]
 	image: String
 }
 
-type TrendingTweetCount{
+type TrendingTweetCount {
 	createdDate: String
 	createdAt: String
 	trendings: [TrendingArr]
 }
 
-type TrendingArr{
+type TrendingArr {
 	category: String
 	counts: [TrendingMetric]
 }
@@ -126,9 +87,7 @@ type Query {
 	getArticles(criteria: ArticleCriteria): [Article]!
 	getTweets(criteria: TweetCriteria): [Tweet]!
 	getArticle(_id: String!): Article
-	getLatestCoronaStats: CoronaStats
 	getWeatherInfo: WeatherInfo
-	getDistrictCoronaStats: DistrictCoronaStats
 	getTrending: TrendingTweetCount
 	getTweetByHandle(handle: String): [Tweet]
 }
