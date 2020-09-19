@@ -22,7 +22,7 @@
 	{
 		"name": "koimoi",
 		"sourceName": "koimoi",
-		"logoLink": "/assets/logos/koimoi.png",
+		"logoLink": "/assets/logos/koimoi-1.png",
 		"weight": 50,
 		"pages": [
 			{
@@ -41,7 +41,7 @@
 	{
 		"name": "DNA India",
 		"sourceName": "DNA India",
-		"logoLink": "/assets/logos/dna.png",
+		"logoLink": "/assets/logos/dna-1.png",
 		"weight": 50,
 		"pages": [
 			{
@@ -60,7 +60,7 @@
 	{
 		"name": "Bollywood Life",
 		"sourceName": "Bollywood Life",
-		"logoLink": "/assets/logos/bollywoodlife.png",
+		"logoLink": "/assets/logos/bollywoodlife-1.png",
 		"weight": 50,
 		"pages": [
 			{
