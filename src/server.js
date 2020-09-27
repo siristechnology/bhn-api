@@ -1,5 +1,4 @@
 require('./config/env')
-require('newrelic')
 const morgan = require('morgan')
 const express = require('express')
 const timeout = require('connect-timeout')
