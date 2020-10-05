@@ -110,7 +110,7 @@
 		"article-detail-selectors":{
 			"title": "h1",
 			"excerpt": "div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div > div.field-item.even > p:nth-child(1)",
-			"lead-image": "img",
+			"lead-image": "div.article-img > img",
 			"content":["div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div > div.field-item.even"]
 		}
 	}
