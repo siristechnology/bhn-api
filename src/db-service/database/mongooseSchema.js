@@ -73,7 +73,7 @@ const Topic = mongoose.model(
 const TrendingTweetCount = mongoose.model(
 	'TrendingTweetCount',
 	new Schema({
-		createdDate: String,
+		createdDate: { type: Date, default: Date.now() },
 		createdAt: { type: Date, default: Date.now() },
 		trendings: [
 			{
