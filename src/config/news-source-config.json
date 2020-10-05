@@ -75,5 +75,43 @@
 			"lead-image": "section > div.story_list_content > div.story_img_Blk > span > a > img",
 			"content": ["section > div.article_content"]
 		}
+	},
+	{
+		"name": "Pinkvilla",
+		"sourceName": "Pinkvilla",
+		"logoLink": "/assets/logos/pinkvilla.png",
+		"weight": 50,
+		"pages": [
+			{
+				"url" : "https://www.pinkvilla.com/",
+				"category": "news",
+				"link-selector": "#owl-carousel1 > div.owl-stage-outer > div > div > div > div > figure > a"
+			}
+		],
+		"article-detail-selectors": {
+			"title": "div.article_box > h1",
+			"excerpt": "div.article_box > div.art_heading.synopsis",
+			"lead-image": "div.article_box > div.article-page-image-row.article > div > a > img",
+			"content": ["#ct1"]
+		}
+	},
+	{
+		"name": "Zee News",
+		"sourceName": "Zee News",
+		"logoLink": "/assets/logos/zeenews.png",
+		"weight": 50,
+		"pages": [
+			{
+				"url": "https://zeenews.india.com/bollywood",
+				"category": "news",
+				"link-selector": "div.view-content.maindiv_story > div > div > div > a"
+			}
+		],
+		"article-detail-selectors":{
+			"title": "h1",
+			"excerpt": "div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div > div.field-item.even > p:nth-child(1)",
+			"lead-image": "img",
+			"content":["div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div > div.field-item.even"]
+		}
 	}
 ]
