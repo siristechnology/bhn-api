@@ -2,7 +2,6 @@ const _ = require('lodash')
 const mongooseSchema = require('../db-service/database/mongooseSchema')
 
 const { User, Article } = mongooseSchema
-const { categories } = require('../config/category')
 const getWeather = require('../weather')
 const logger = require('../config/logger')
 const { Tweet } = require('../db-service/database/mongooseSchema')
@@ -15,21 +14,22 @@ module.exports = {
 			args.criteria.lastQueryDate = args.criteria.lastQueryDate || new Date('2001-01-01')
 			args.criteria.lastArticleId = args.criteria.lastArticleId || '000000000000000000000000'
 
-			const promises = categories.map(async (category) => {
-				const _articles = await Article.find({
-					category,
-					link: { $ne: null },
-					modifiedDate: { $gt: new Date(args.criteria.lastQueryDate) },
-					_id: { $gt: args.criteria.lastArticleId },
-				})
-					.lean()
-					.sort({ _id: -1 })
-					.limit(20)
+			// const promises = categories.map(async (category) => {
+			// 	const _articles = await Article.find({
+			// 		category,
+			// 		link: { $ne: null },
+			// 		modifiedDate: { $gt: new Date(args.criteria.lastQueryDate) },
+			// 		_id: { $gt: args.criteria.lastArticleId },
+			// 	})
+			// 		.lean()
+			// 		.sort({ _id: -1 })
+			// 		.limit(20)
 
-				return [..._articles]
-			})
+			// 	return [..._articles]
+			// })
 
-			const articles = await Promise.all(promises)
+			// const articles = await Promise.all(promises)
+			const articles = await Article.find().lean().sort({ _id: -1 }).limit(100)
 			let articleFlattened = _.flatten(articles)
 			articleFlattened = articleFlattened.sort((a, b) => (a._id < b._id ? 1 : b._id < a._id ? -1 : 0))
 			const articleList = articleFlattened.map((article) => {
