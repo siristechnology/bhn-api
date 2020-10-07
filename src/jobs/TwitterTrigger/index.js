@@ -22,8 +22,6 @@ async function fetchTweetsAndSaveByHandle(user) {
 		const tweets = await getUserTimeline(handle)
 		if (tweets && tweets.length > 0) {
 			saveTweets(tweets, user)
-		} else {
-			logger.info('error on getting tweets !!!!!!!!!!!!!!!!!')
 		}
 	} catch (error) {
 		logger.info('error occured', error)
@@ -54,7 +52,7 @@ async function getUserTimeline(handle) {
 			name: tweet.user.name,
 			handle: tweet.user.screen_name,
 			description: tweet.user.description,
-			profileImage: tweet.user.profile_image_url_https,
+			profileImage: tweet.user.profile_image_url_https.replace('_normal', ''),
 		}))
 
 	return tweets
