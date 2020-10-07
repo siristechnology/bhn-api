@@ -12,7 +12,7 @@ module.exports = async function () {
 			}
 		}
 	} catch (error) {
-		logger.error(error)
+		logger.error('Error in Twitter Job', error)
 	}
 }
 
@@ -24,7 +24,7 @@ async function fetchTweetsAndSaveByHandle(user) {
 			saveTweets(tweets, user)
 		}
 	} catch (error) {
-		logger.info('error occured', error)
+		logger.error('Error while fetching tweets', error)
 	}
 }
 
