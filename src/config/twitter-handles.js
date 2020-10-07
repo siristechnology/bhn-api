@@ -12,27 +12,9 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Aditi Rao Hydari",
-	  "handle": "@aditiraohydari",
-	  "searchTerms": ["Aditi Rao Hydari"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Aftab Shivdasani",
-	  "handle": "@AftabShivdasani",
-	  "searchTerms": ["Aftab Shivdasani"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Ajay Devgn",
 	  "handle": "@ajaydevgn",
 	  "searchTerms": ["Ajay Devgn"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Ajaz Khan",
-	  "handle": "@AjazkhanActor",
-	  "searchTerms": ["Ajaz Khan"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -42,21 +24,9 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "ameesha patel",
-	  "handle": "@ameesha_patel",
-	  "searchTerms": ["ameesha patel"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Amitabh Bachchan",
 	  "handle": "@SrBachchan",
 	  "searchTerms": ["Amitabh Bachchan"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "AMRITA RAO",
-	  "handle": "@AmritaRao",
-	  "searchTerms": ["AMRITA RAO"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -84,12 +54,6 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "arjun rampal",
-	  "handle": "@rampalarjun",
-	  "searchTerms": ["arjun rampal"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Arshad Warsi",
 	  "handle": "@ArshadWarsi",
 	  "searchTerms": ["Arshad Warsi"],
@@ -99,18 +63,6 @@ const TrendingTwitterHandles = [
 	  "name": "Ayushmann Khurrana",
 	  "handle": "@ayushmannk",
 	  "searchTerms": ["Ayushmann Khurrana"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Azmi Shabana",
-	  "handle": "@AzmiShabana",
-	  "searchTerms": ["Azmi Shabana"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Barbara Mori",
-	  "handle": "@Delamori",
-	  "searchTerms": ["Barbara Mori"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -126,63 +78,15 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Chitrangda Singh",
-	  "handle": "@IChitrangda",
-	  "searchTerms": ["Chitrangda Singh"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Daisy Shah",
-	  "handle": "@ShahDaisy25",
-	  "searchTerms": ["Daisy Shah"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Darshan Kumaar",
-	  "handle": "@DarshanKumaar",
-	  "searchTerms": ["Darshan Kumaar"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Deepika Padukone",
 	  "handle": "@deepikapadukone",
 	  "searchTerms": ["Deepika Padukone"],
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Dia Mirza",
-	  "handle": "@deespeak",
-	  "searchTerms": ["Dia Mirza"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "DILJIT DOSANJH",
-	  "handle": "@diljitdosanjh",
-	  "searchTerms": ["DILJIT DOSANJH"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Dino Morea",
-	  "handle": "@DinoMorea9",
-	  "searchTerms": ["Dino Morea"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Disha Patani",
 	  "handle": "@DishPatani",
 	  "searchTerms": ["Disha Patani"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Divya Dutta",
-	  "handle": "@divyadutta25",
-	  "searchTerms": ["Divya Dutta"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Elli AvrRam",
-	  "handle": "@ElliAvrRam",
-	  "searchTerms": ["Elli AvrRam"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -195,12 +99,6 @@ const TrendingTwitterHandles = [
 	  "name": "Farhan Akhtar",
 	  "handle": "@FarOutAkhtar",
 	  "searchTerms": ["Farhan Akhtar"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Genelia Deshmukh",
-	  "handle": "@geneliad",
-	  "searchTerms": ["Genelia Deshmukh"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -222,45 +120,15 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Irrfan",
-	  "handle": "@irrfank",
-	  "searchTerms": ["Irrfan"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Jaaved Jaaferi",
-	  "handle": "@jaavedjaaferi",
-	  "searchTerms": ["Jaaved Jaaferi"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Jacqueline Fernandez",
 	  "handle": "@Asli_Jacqueline",
 	  "searchTerms": ["Jacqueline Fernandez"],
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Javed Akhtar",
-	  "handle": "@Javedakhtarjadu",
-	  "searchTerms": ["Javed Akhtar"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Jimmy sheirgill",
-	  "handle": "@jimmysheirgill",
-	  "searchTerms": ["Jimmy sheirgill"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "John Abraham",
 	  "handle": "@TheJohnAbraham",
 	  "searchTerms": ["John Abraham"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Juhi Chawla",
-	  "handle": "@iam_juhi",
-	  "searchTerms": ["Juhi Chawla"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -282,21 +150,9 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "kashmera shah",
-	  "handle": "@kashmerashah",
-	  "searchTerms": ["kashmera shah"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Kirron Kher",
 	  "handle": "@KirronKherBJP",
 	  "searchTerms": ["Kirron Kher"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Konkona Sensharma",
-	  "handle": "@konkonas",
-	  "searchTerms": ["Konkona Sensharma"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -306,27 +162,9 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Kunal Kapoor",
-	  "handle": "@kapoorkkunal",
-	  "searchTerms": ["Kunal Kapoor"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "kunal kemmu",
 	  "handle": "@kunalkemmu",
 	  "searchTerms": ["kunal kemmu"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Lara Dutta Bhupathi",
-	  "handle": "@LaraDutta",
-	  "searchTerms": ["Lara Dutta Bhupathi"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Lauren Gottlieb",
-	  "handle": "@LaurenGottlieb",
-	  "searchTerms": ["Lauren Gottlieb"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -336,51 +174,9 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Mahesh Manjrekar",
-	  "handle": "@manjrekarmahesh",
-	  "searchTerms": ["Mahesh Manjrekar"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Mallika Sherawat",
 	  "handle": "@mallikasherawat",
 	  "searchTerms": ["Mallika Sherawat"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Manish Malhotra",
-	  "handle": "@ManishMalhotra",
-	  "searchTerms": ["Manish Malhotra"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "manoj bajpayee",
-	  "handle": "@BajpayeeManoj",
-	  "searchTerms": ["manoj bajpayee"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Manoj Muntashir",
-	  "handle": "@manojmuntashir",
-	  "searchTerms": ["Manoj Muntashir"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Minissha Lambba",
-	  "handle": "@Minissha_Lamba",
-	  "searchTerms": ["Minissha Lambba"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Nargis",
-	  "handle": "@NargisFakhri",
-	  "searchTerms": ["Nargis"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Natasa Stankovic",
-	  "handle": "@Natasa_Official",
-	  "searchTerms": ["Natasa Stankovic"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -402,51 +198,15 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Nimrat Kaur",
-	  "handle": "@NimratOfficial",
-	  "searchTerms": ["Nimrat Kaur"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Omi Vaidya",
-	  "handle": "@OmiOneKenobe",
-	  "searchTerms": ["Omi Vaidya"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Parineeti Chopra",
 	  "handle": "@ParineetiChopra",
 	  "searchTerms": ["Parineeti Chopra"],
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Parmeet Sethi",
-	  "handle": "@parmeetsethi",
-	  "searchTerms": ["Parmeet Sethi"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Pooja Bhatt",
-	  "handle": "@PoojaB1972",
-	  "searchTerms": ["Pooja Bhatt"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Poonam Pandey Bombay",
-	  "handle": "@iPoonampandey",
-	  "searchTerms": ["Poonam Pandey Bombay"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Prabhudheva",
 	  "handle": "@PDdancing",
 	  "searchTerms": ["Prabhudheva"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Prachi Desai",
-	  "handle": "@ItsPrachiDesai",
-	  "searchTerms": ["Prachi Desai"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -462,18 +222,6 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Pulkit Samrat",
-	  "handle": "@PulkitSamrat",
-	  "searchTerms": ["Pulkit Samrat"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Rahul Bose",
-	  "handle": "@RahulBose1",
-	  "searchTerms": ["Rahul Bose"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Rajinikanth",
 	  "handle": "@rajinikanth",
 	  "searchTerms": ["Rajinikanth"],
@@ -483,12 +231,6 @@ const TrendingTwitterHandles = [
 	  "name": "Rajkummar Rao",
 	  "handle": "@RajkummarRao",
 	  "searchTerms": ["Rajkummar Rao"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Rana Daggubati",
-	  "handle": "@RanaDaggubati",
-	  "searchTerms": ["Rana Daggubati"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -516,27 +258,9 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Ritika",
-	  "handle": "@bajajritika",
-	  "searchTerms": ["Ritika"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Salman Khan",
 	  "handle": "@BeingSalmanKhan",
 	  "searchTerms": ["Salman Khan"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Sameera Reddy",
-	  "handle": "@reddysameera",
-	  "searchTerms": ["Sameera Reddy"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Sana Khaan",
-	  "handle": "@sanaak21",
-	  "searchTerms": ["Sana Khaan"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -549,12 +273,6 @@ const TrendingTwitterHandles = [
 	  "name": "Shahid Kapoor",
 	  "handle": "@shahidkapoor",
 	  "searchTerms": ["Shahid Kapoor"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Shamita Shetty",
-	  "handle": "@ShamitaShetty",
-	  "searchTerms": ["Shamita Shetty"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -576,12 +294,6 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Soha Ali Khan",
-	  "handle": "@sakpataudi",
-	  "searchTerms": ["Soha Ali Khan"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Sohail Khan",
 	  "handle": "@SohailKhan",
 	  "searchTerms": ["Sohail Khan"],
@@ -600,21 +312,9 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Sunny Deol",
-	  "handle": "@iamsunnydeol",
-	  "searchTerms": ["Sunny Deol"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "sunnyleone",
 	  "handle": "@SunnyLeone",
 	  "searchTerms": ["sunnyleone"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Surveen",
-	  "handle": "@SurveenChawla",
-	  "searchTerms": ["Surveen"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -636,18 +336,6 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Tanishaa Mukerji",
-	  "handle": "@TanishaaMukerji",
-	  "searchTerms": ["Tanishaa Mukerji"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "TheRichaChadha",
-	  "handle": "@RichaChadha",
-	  "searchTerms": ["TheRichaChadha"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Tiger Shroff",
 	  "handle": "@iTIGERSHROFF",
 	  "searchTerms": ["Tiger Shroff"],
@@ -666,39 +354,15 @@ const TrendingTwitterHandles = [
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Varun Sharma",
-	  "handle": "@varunsharma90",
-	  "searchTerms": ["Varun Sharma"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "VarunDhawan",
 	  "handle": "@Varun_dvn",
 	  "searchTerms": ["VarunDhawan"],
 	  "category": "Actor/Actress"
 	},
 	{
-	  "name": "Vidyut Jammwal",
-	  "handle": "@VidyutJammwal",
-	  "searchTerms": ["Vidyut Jammwal"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Vivek Anand Oberoi",
-	  "handle": "@vivekoberoi",
-	  "searchTerms": ["Vivek Anand Oberoi"],
-	  "category": "Actor/Actress"
-	},
-	{
 	  "name": "Yami Gautam",
 	  "handle": "@yamigautam",
 	  "searchTerms": ["Yami Gautam"],
-	  "category": "Actor/Actress"
-	},
-	{
-	  "name": "Zareen Khan",
-	  "handle": "@zareen_khan",
-	  "searchTerms": ["Zareen Khan"],
 	  "category": "Actor/Actress"
 	},
 	{
@@ -720,21 +384,9 @@ const TrendingTwitterHandles = [
 		"category": "Tellywood"
 	  },
 	  {
-		"name": "Aly Goni",
-		"handle": "@AlyGoni",
-		"searchTerms": ["Aly Goni"],
-		"category": "Tellywood"
-	  },
-	  {
 		"name": "Andy Kumar",
 		"handle": "@iAmVJAndy",
 		"searchTerms": ["Andy Kumar"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Anita Hassanandani",
-		"handle": "@anitahasnandani",
-		"searchTerms": ["Anita Hassanandani"],
 		"category": "Tellywood"
 	  },
 	  {
@@ -753,30 +405,6 @@ const TrendingTwitterHandles = [
 		"name": "Asim Riaz",
 		"handle": "@imrealasim",
 		"searchTerms": ["Asim Riaz"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Bigg Boss",
-		"handle": "@BiggBoss",
-		"searchTerms": ["Bigg Boss"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Delnaazz Irani",
-		"handle": "@IamDelnazzIrani",
-		"searchTerms": ["Delnaazz Irani"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Diandra Soares",
-		"handle": "@diandrasoares13",
-		"searchTerms": ["Diandra Soares"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "DiganganaSuryavanshi",
-		"handle": "@DiganganaS",
-		"searchTerms": ["DiganganaSuryavanshi"],
 		"category": "Tellywood"
 	  },
 	  {
@@ -804,21 +432,9 @@ const TrendingTwitterHandles = [
 		"category": "Tellywood"
 	  },
 	  {
-		"name": "Gauahar Khan",
-		"handle": "@GAUAHAR_KHAN",
-		"searchTerms": ["Gauahar Khan"],
-		"category": "Tellywood"
-	  },
-	  {
 		"name": "Gautam Gulati",
 		"handle": "@TheGautamGulati",
 		"searchTerms": ["Gautam Gulati"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Gautam Rode",
-		"handle": "@gautam_rode",
-		"searchTerms": ["Gautam Rode"],
 		"category": "Tellywood"
 	  },
 	  {
@@ -870,12 +486,6 @@ const TrendingTwitterHandles = [
 		"category": "Tellywood"
 	  },
 	  {
-		"name": "Karanvir Bohra",
-		"handle": "@KVBohra",
-		"searchTerms": ["Karanvir Bohra"],
-		"category": "Tellywood"
-	  },
-	  {
 		"name": "Karishma Tanna",
 		"handle": "@KARISHMAK_TANNA",
 		"searchTerms": ["Karishma Tanna"],
@@ -915,18 +525,6 @@ const TrendingTwitterHandles = [
 		"name": "Lopamudra Raut",
 		"handle": "@iLopamudraRaut",
 		"searchTerms": ["Lopamudra Raut"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Madhurima Tuli",
-		"handle": "@ItsMadhurima19",
-		"searchTerms": ["Madhurima Tuli"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Mandana karimi",
-		"handle": "@manizhe",
-		"searchTerms": ["Mandana karimi"],
 		"category": "Tellywood"
 	  },
 	  {
@@ -1002,12 +600,6 @@ const TrendingTwitterHandles = [
 		"category": "Tellywood"
 	  },
 	  {
-		"name": "Ram Kapoor",
-		"handle": "@RamKapoor",
-		"searchTerms": ["Ram Kapoor"],
-		"category": "Tellywood"
-	  },
-	  {
 		"name": "Rannvijay Singha",
 		"handle": "@rannvijaysingha",
 		"searchTerms": ["Rannvijay Singha"],
@@ -1026,21 +618,9 @@ const TrendingTwitterHandles = [
 		"category": "Tellywood"
 	  },
 	  {
-		"name": "Rochelle Rao Sequeira",
-		"handle": "@RochelleMRao",
-		"searchTerms": ["Rochelle Rao Sequeira"],
-		"category": "Tellywood"
-	  },
-	  {
 		"name": "Roopal Tyagi",
 		"handle": "@RoopalTyagi06",
 		"searchTerms": ["Roopal Tyagi"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Sambhavna Seth",
-		"handle": "@sambhavnaseth",
-		"searchTerms": ["Sambhavna Seth"],
 		"category": "Tellywood"
 	  },
 	  {
@@ -1059,12 +639,6 @@ const TrendingTwitterHandles = [
 		"name": "Shakti Mohan",
 		"handle": "@MohanShakti",
 		"searchTerms": ["Shakti Mohan"],
-		"category": "Tellywood"
-	  },
-	  {
-		"name": "Sharad Kelkar",
-		"handle": "@SharadK7",
-		"searchTerms": ["Sharad Kelkar"],
 		"category": "Tellywood"
 	  },
 	  {
@@ -1098,15 +672,9 @@ const TrendingTwitterHandles = [
 		"category": "Tellywood"
 	  },
 	  {
-		"name": "Sourabh raaj jain",
-		"handle": "@saurabhraajjain",
-		"searchTerms": ["Sourabh raaj jain"],
-		"category": "Tellywood"
-	  },
-	  {
 		"name": "Swwapnil Joshi | स्वप्नील जोशी",
 		"handle": "@swwapniljoshi",
-		"searchTerms": ["Swwapnil Joshi | स्वप्नील जोशी"],
+		"searchTerms": ["Swwapnil Joshi, स्वप्नील जोशी"],
 		"category": "Tellywood"
 	  },
 	  {
@@ -1654,126 +1222,6 @@ const TrendingTwitterHandles = [
 		"handle": "@TheVikramBhatt",
 		"searchTerms": ["Vikram Bhatt"],
 		"category": "Others"
-	  },
-	  {
-		"name": "93.5 Red FM, Delhi.",
-		"handle": "@935redfm",
-		"searchTerms": ["93.5 Red FM, Delhi."],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "BollyHungama",
-		"handle": "@Bollyhungama",
-		"searchTerms": ["BollyHungama"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Box Office India",
-		"handle": "@boxofficeindia",
-		"searchTerms": ["Box Office India"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "COLORS",
-		"handle": "@ColorsTV",
-		"searchTerms": ["COLORS"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Eros Now",
-		"handle": "@ErosNow",
-		"searchTerms": ["Eros Now"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Fox Star Hindi",
-		"handle": "@foxstarhindi",
-		"searchTerms": ["Fox Star Hindi"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "India Forums",
-		"handle": "@indiaforums",
-		"searchTerms": ["India Forums"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "MissMalini",
-		"handle": "@MissMalini",
-		"searchTerms": ["MissMalini"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "NDTV",
-		"handle": "@ndtv",
-		"searchTerms": ["NDTV"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Red Chillies Entertainment",
-		"handle": "@RedChilliesEnt",
-		"searchTerms": ["Red Chillies Entertainment"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Sony MIX",
-		"handle": "@sonymixtv",
-		"searchTerms": ["Sony MIX"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "sonytv",
-		"handle": "@SonyTV",
-		"searchTerms": ["sonytv"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "StarPlus",
-		"handle": "@StarPlus",
-		"searchTerms": ["StarPlus"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Tellychakkar.com",
-		"handle": "@tellychakkar",
-		"searchTerms": ["Tellychakkar.com"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "TIMES NOW",
-		"handle": "@TimesNow",
-		"searchTerms": ["TIMES NOW"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Tips Films & Music",
-		"handle": "@tipsofficial",
-		"searchTerms": ["Tips Films & Music"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "UTV Motion Pictures",
-		"handle": "@utvfilms",
-		"searchTerms": ["UTV Motion Pictures"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Yash Raj Films",
-		"handle": "@yrf",
-		"searchTerms": ["Yash Raj Films"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "Zee Music Company",
-		"handle": "@ZeeMusicCompany",
-		"searchTerms": ["Zee Music Company"],
-		"category": "Media Channel"
-	  },
-	  {
-		"name": "ZeeTV",
-		"handle": "@ZeeTV",
-		"searchTerms": ["ZeeTV"],
-		"category": "Media Channel"
 	  }
 ]
 
