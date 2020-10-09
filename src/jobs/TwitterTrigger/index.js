@@ -49,7 +49,7 @@ async function getUserTimeline(handle) {
 			publishedDate: tweet.created_at,
 			tweetId: tweet.id_str || tweet.id,
 			text: tweet.text,
-			name: tweet.user.name,
+			name: `@${tweet.user.screen_name}`,
 			handle: tweet.user.screen_name,
 			description: tweet.user.description,
 			profileImage: tweet.user.profile_image_url_https.replace('_normal', ''),
