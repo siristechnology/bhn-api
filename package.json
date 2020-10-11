@@ -33,8 +33,7 @@
 		"pm2": "4.4.1",
 		"require-graphql-file": "1.0.1",
 		"twitter": "1.7.1",
-		"winston": "3.3.3",
-		"wordpos": "^2.0.0"
+		"winston": "3.3.3"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.10.4",

@@ -2,29 +2,19 @@ const NewsCrawler = require('news-crawler')
 const { saveArticles } = require('../../db-service/newsDbService')
 const SourceConfig = require('../../config/news-source-config.json')
 const logger = require('../../config/logger')
-const { removeDuplicateArticles, filterNewArticles } = require('./helper')
+const { filterNewArticles } = require('./helper')
 const { Article } = require('../../db-service/database/mongooseSchema')
-const WordPOS = require('wordpos')
-const wordpos = new WordPOS()
 
 module.exports = async function () {
 	const ipAddress = require('ip').address()
 
 	try {
-		const articles = await NewsCrawler(SourceConfig, 3)
+		let articles = await NewsCrawler(SourceConfig, 3)
+		articles = articles.filter((a) => a.imageLink !== null)
 
 		const savedArticles = await Article.find({ createdDate: { $gt: new Date(Date.now() - 12 * 60 * 60 * 1000) } })
 
-		const articleWithNouns = []
-		for (const article of articles) {
-			const nouns = await wordpos.getNouns(article.title)
-			article.nouns = nouns
-			articleWithNouns.push(article)
-		}
-
-		const newFilteredArticles = removeDuplicateArticles(articleWithNouns)
-
-		const checkWithOldArticles = filterNewArticles(newFilteredArticles, savedArticles)
+		const checkWithOldArticles = filterNewArticles(articles, savedArticles)
 
 		checkWithOldArticles.forEach((x) => (x.hostIp = ipAddress))
 
