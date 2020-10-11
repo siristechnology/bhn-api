@@ -79,11 +79,11 @@
 	{
 		"name": "Pinkvilla",
 		"sourceName": "Pinkvilla",
-		"logoLink": "/assets/logos/pinkvilla.png",
+		"logoLink": "/assets/logos/pinkvilla-1.png",
 		"weight": 50,
 		"pages": [
 			{
-				"url" : "https://www.pinkvilla.com/",
+				"url": "https://www.pinkvilla.com/",
 				"category": "news",
 				"link-selector": "#owl-carousel1 > div.owl-stage-outer > div > div > div > div > figure > a"
 			}
@@ -98,7 +98,7 @@
 	{
 		"name": "Zee News",
 		"sourceName": "Zee News",
-		"logoLink": "/assets/logos/zeenews.png",
+		"logoLink": "/assets/logos/zeenews-1.png",
 		"weight": 50,
 		"pages": [
 			{
@@ -107,11 +107,11 @@
 				"link-selector": "div.view-content.maindiv_story > div > div > div > a"
 			}
 		],
-		"article-detail-selectors":{
+		"article-detail-selectors": {
 			"title": "h1",
 			"excerpt": "div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div > div.field-item.even > p:nth-child(1)",
 			"lead-image": "div.article-image-block.margin-bt30px > div > div > div > div > img",
-			"content":["div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div > div.field-item.even"]
+			"content": ["div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div > div.field-item.even"]
 		}
 	}
 ]
