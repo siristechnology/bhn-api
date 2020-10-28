@@ -2,7 +2,7 @@
 	{
 		"name": "mid-day",
 		"sourceName": "mid-day",
-		"logoLink": "/assets/logos/mid-day.png",
+		"logoLink": "/assets/logos/midday.png",
 		"weight": 50,
 		"pages": [
 			{
@@ -79,7 +79,7 @@
 	{
 		"name": "Pinkvilla",
 		"sourceName": "Pinkvilla",
-		"logoLink": "/assets/logos/pinkvilla-1.png",
+		"logoLink": "/assets/logos/pinkvilla-2.png",
 		"weight": 50,
 		"pages": [
 			{
