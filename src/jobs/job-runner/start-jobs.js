@@ -11,12 +11,12 @@ module.exports = async function () {
 
 	const agenda = new Agenda({ db: { address: process.env.DATABASE_URL } })
 
-	agenda.define('crawl articles', async (job) => {
+	agenda.define('crawl articles', async () => {
 		logger.info('crawl articles job started')
 		crawler()
 	})
 
-	agenda.define('pull tweets', async (job) => {
+	agenda.define('pull tweets', async () => {
 		logger.info('pull tweets job started')
 		twitterJob()
 	})
@@ -29,7 +29,6 @@ module.exports = async function () {
 	await agenda.start()
 
 	await agenda.every('30 minutes', 'crawl articles')
-	await agenda.every('5 minutes', 'notify users')
-	await agenda.every('20 minutes', 'pull tweets')
+	await agenda.every('30 minutes', 'pull tweets')
 	await agenda.every('1 hours', 'fetch trending')
 }
