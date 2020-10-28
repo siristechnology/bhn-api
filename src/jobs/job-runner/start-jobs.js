@@ -7,21 +7,20 @@ const twitterJob = require('../TwitterTrigger')
 const trendingJob = require('../trending')
 
 module.exports = async function () {
-	logger.info('starting jobs')
-
+	logger.info('starting agenda job-runner')
 	const agenda = new Agenda({ db: { address: process.env.DATABASE_URL } })
 
-	agenda.define('crawl articles', async () => {
+	agenda.define('crawl articles', { concurrency: 1 }, async () => {
 		logger.info('crawl articles job started')
 		crawler()
 	})
 
-	agenda.define('pull tweets', async () => {
+	agenda.define('pull tweets', { concurrency: 1 }, async () => {
 		logger.info('pull tweets job started')
 		twitterJob()
 	})
 
-	agenda.define('fetch trending', async () => {
+	agenda.define('fetch trending', { concurrency: 1 }, async () => {
 		logger.info('fetch trending job started')
 		trendingJob()
 	})
