@@ -8,6 +8,8 @@ module.exports = async function () {
 		const client = new Twitter({
 			consumer_key: TWITTER_CONSUMER_KEY,
 			consumer_secret: TWITTER_CONSUMER_SECRET,
+			access_token_key: '',
+			access_token_secret: '',
 		})
 		if (trendingHandles) {
 			const twitterHandlesWithCount = []
