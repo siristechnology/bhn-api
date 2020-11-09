@@ -26,7 +26,7 @@ module.exports = async function () {
 							result_type: 'recent',
 						}
 
-						await sleep(3000)
+						await sleep(5000)
 						const searchResults = await client.get('search/tweets', params)
 						searchResultsArr = searchResultsArr.concat(searchResults.statuses)
 						searchResultsArr = searchResultsArr.filter((thing, index, self) => index === self.findIndex((t) => t.id === thing.id))
