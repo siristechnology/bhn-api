@@ -28,7 +28,7 @@
 		"mongodb": "3.6.2",
 		"mongoose": "5.10.7",
 		"morgan": "1.10.0",
-		"news-crawler": "^1.12.0",
+		"news-crawler": "https://github.com/siristechnology/news-crawler",
 		"offline-geo-from-ip": "^1.0.1",
 		"pm2": "4.4.1",
 		"require-graphql-file": "1.0.1",
